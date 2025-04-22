@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio - Développeur Laravel & Vue.js</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #f9f9f9; color: #333; }
+    header { background: #0d47a1; color: white; padding: 2rem; text-align: center; }
+    nav a { margin: 0 1rem; color: white; text-decoration: none; }
+    section { padding: 2rem; max-width: 900px; margin: auto; }
+    h2 { color: #0d47a1; }
+    .project { border: 1px solid #ccc; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; background: white; }
+    footer { text-align: center; padding: 2rem; background: #0d47a1; color: white; }
+    img.profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 600px) {
+      header, section, footer { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./images/pdp1.JPG" alt="Photo de profil" class="profile-pic">
+    <h1>RATSARAMANANA Alex</h1>
+    <p>Développeur Laravel & Vue.js</p>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Je suis un développeur web freelance spécialisé en Laravel et Vue.js. Je crée des applications web sur mesure, modernes et performantes pour aider les entreprises à atteindre leurs objectifs.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projets</h2>
+
+    <div class="project">
+      <h3>Site Web de l’ONG Fitiavana</h3>
+      <p>Site web complet pour une ONG à Madagascar. Comprend un blog, un formulaire de dons, une gestion des événements et un système de parrainage.</p>
+      <p><strong>Technos :</strong> Laravel, Livewire, Tailwind CSS</p>
+      <p><a href="#">Voir sur GitHub</a></p>
+    </div>
+
+    <div class="project">
+      <h3>Gestion de congé et de personnel</h3>
+      <p>Brève description de ce que fait ce projet. Ex : gestion de tâches, tableau de bord admin, etc.</p>
+      <p><strong>Technos :</strong> Laravel, Vue.js</p>
+      <p><a href="#">Voir sur GitHub</a></p>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email : <a href="mailto:ton@email.com">ratsaramananarivoniaina@gmail.com</a></p>
+    <p>🔗 LinkedIn : <a href="https://www.linkedin.com/in/tonprofil">Ratsaramanana</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RATSARAMANANA — Portfolio freelance Laravel & Vue.js</p>
+  </footer>
+</body>
+</html>
